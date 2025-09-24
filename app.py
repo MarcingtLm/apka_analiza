@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns 
 import numpy as np
 
-df_original=pd.read_csv('35__welcome_survey_cleaned.csv' , sep=';')
+df_original=pd.read_csv('survey_cleaned.csv' , sep=';')
 df = df_original.copy()
 
 st.title('Ankieta powitalna wyniki 🚀 ')
